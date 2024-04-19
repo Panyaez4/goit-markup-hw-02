@@ -14,13 +14,14 @@ button {
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 .nav-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -30,7 +31,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -44,6 +45,10 @@ button {
   color: #2e2f42;
 }
 
+.top-contacts {
+  font-family: normal;
+}
+
 .contacts-item:hover,
 .contacts-item:focus {
   font-weight: 400;
@@ -51,6 +56,15 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #404bbf;
+}
+
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .benefits-menu-title {

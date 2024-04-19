@@ -55,7 +55,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts-item:hover,
+.contacts-item:hover {
+  color: #404bbf;
+}
 .contacts-item:focus {
   color: #404bbf;
 }

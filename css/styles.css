@@ -17,6 +17,36 @@ body {
   background-color: #ffffff;
 }
 
+.page-hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.button-hero {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.button-hero:hover {
+  background-color: #404bbf;
+}
+
+.button-hero:focus {
+  background-color: #404bbf;
+}
+
 .nav-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -95,6 +125,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -102,6 +136,11 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.avatar-menu-item {
+  background-color: #fff;
 }
 
 .teammate-name {

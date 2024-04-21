@@ -25,7 +25,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -167,6 +167,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-item-title {
@@ -184,7 +185,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-.f-logo {
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.nav-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -194,7 +199,7 @@ body {
   color: #4d5ae5;
 }
 
-.footer-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
